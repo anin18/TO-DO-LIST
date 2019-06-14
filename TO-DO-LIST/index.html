@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Nina Knezevic">
+        <meta name="description" content="Example of a simple To do list written in jQuery.">
+
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- theme css-->
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+
+        <title>TO DO LIST</title>
+    </head>
+    <body class = "bg-info">
+        <div class="container px-0">
+            <div class="newTask-wrapper px-3 pt-3 pb-5 mb-4">
+                <h2 class="mb-4 text-success">Task List</h2>
+                <form method="post" action="">
+                    <div class="form-group position-relative" >
+                        <input type ="text" name="add-task" placeholder="New Task" class="add-task" autofocus="">
+                        <button class="btn btn-info text-uppercase position-absolute add" type="button">add task</button>
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <div class="filter-wrapper px-3 pt-3 pb-5 mb-4">
+                <h2 class="mb-5">Tasks</h2>
+                <form method="post" action="">
+                    <div class="form-group position-relative">
+                        <input type ="text" name="filter-task" placeholder="Filter Tasks" class="filter-tasks-input">
+                        <ul class="added-tasks list-unstyled pl-1 pr-4">
+                            
+                        </ul>
+                        <button class="btn btn-dark text-uppercase position-absolute clear-tasks" type="button">clear tasks</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/popper.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+
+    </body>
+</html>
